@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  font awesome link  -->
+    <script
+      src="https://kit.fontawesome.com/6d783c61b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style2.css" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <main>
+      <!-- NAVIGATION CODE AND HEADER -->
+      <header>
+        <img
+          class="logo"
+          src="./pusher.png"
+          alt=""
+        />
+        <nav>
+          <ul>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Learn more</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </nav>
+        <button class="Account">Account</button>
+      </header>
+      <hr size="1" />
+      <!-- CODE FOR WHITE PART -->
+      <section class="div-section">
+        <div class="white-div">
+          <div class="Checkout-div"><h1>Checkout</h1>
+          <hr size="1" /></div>
+          <!-- CODE FOR THE FORM -->
+          <form action="">
+            <div class="basic-info">
+              <div class="list-div">
+                <div class="number-div">1</div>
+                <div class="basic-info-text"><p>Your basic information</p></div>
+              </div>
+              <div class="basic-row-form">
+                <div class="FirstName-div">
+                  <label for="FirstName" class="grid"> First Name </label>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Jane"
+                    name="FirstName"
+                    id="FirstName"
+                    size="50"
+                  />
+                </div>
+                <div class="LastName-div">
+                  <label for="LastName" class="grid"> Last Name </label>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Doe"
+                    name="LastName"
+                    id="LastName"
+                    size="50"
+                  />
+                </div>
+              </div>
+              <div class="Email-div">
+                <label for="Email" class=""> Email </label>
+                <input
+                  type="email"
+                  required
+                  placeholder="janedoe@example.com"
+                  name="Email"
+                  id="Email"
+                />
+              </div>
+            </div>
+            <!-- PAYMENT INFORMATION FORM -->
+            <hr size="1" />
+            <div class="payment-div">
+              <div class="list-div2">
+                <div class="number-div1">2</div>
+                <div class="payment"><p>Your payment information</p></div>
+              </div>
+              <div class="Credit-card-form">
+                <label for="Card-details"> Credit Card </label>
+                <div class="Credit-card-input">
+                  <input
+                    type="text"
+                    placeholder="Card Number"
+                    class="card-num"
+                  />
+                  <input type="text" placeholder="MM/YY" class="month-input" />
+                  <input type="text" placeholder="CVC" class="CVC-input" />
+                </div>
+              </div>
+            </div>
+            <hr size="1" />
+            <button type="submit" value="Purchase" class="Buy">Buy WP Pusher</button>
+          </form>
+          <footer class="first-footer">
+            <p></p><i id="icon" class="fa-regular fa-circle-question"></i>
+            Need any help? Don't
+            hesistate to contact support!</p>
+            <br>
+            <img
+              src="./stripe.png"
+              alt="powered_by_stripe logo"
+            />
+          </footer>
+        </div>
+        <!-- CODE FOR THE BLUE PART -->
+        <div class="blue-div">
+          <p class="free">Freelancer</p>
+          <div class="year-div">
+            <p class="year1">
+              <sup>$</sup>
+              99
+              <span class="year">/year</span>
+            </p>
+          </div>
+          <p class="auto">Automatically renews after 1 yeaar</p>
+          <div>
+            <div class="blue-list">
+              <ul>
+                <li> <i class="fa-regular fa-circle-check"></i>Use on 5 client sites</li>
+                <li><i class="fa-regular fa-circle-check"></i>Private repositories</li>
+                <li><i class="fa-regular fa-circle-check"></i>Email Support</li>
+              </ul>
+            </div>
+            <p class="clients">Need 20 client sites?</p>
+            <a href="#">Switch to the Agency plan</a>
+            <hr size="2" />
+          </div>
+          
+          <div class="FTP">
+            <p>
+              FTP is horrible to deal with. <span>WP Pusher</span> solves that issue, and the
+              customer support is awesome!
+            </p>
+            <div class="img-div">
+              <img src="./Bitmap.png" alt="picture of Krik Beard" />
+              <p class="name">Krik Beard</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- LAST PART OF THE BODY -->
+      <footer class="last-foot">
+        <p>&copy;2018 WP Pusher IVS. <a href="#">Terms of service</a></p>
+      </footer>
+    </main>
+  </body>
+</html>

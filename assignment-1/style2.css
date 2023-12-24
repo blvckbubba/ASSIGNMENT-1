@@ -1,0 +1,354 @@
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* NORMAL STYLING */
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #f5f8fa;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  margin-bottom: -3rem;
+  margin-top: -1rem;
+}
+/* STYLING FOR THE HEADER/NAV */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav {
+  text-align: center;
+  list-style: none;
+  display: block;
+  margin: 0.1rem -7rem -0.5rem 7rem;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  margin: 1.3rem 1rem 1rem 1rem;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* visited link */
+nav li a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+nav li a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+nav li a:active {
+  color: blue;
+}
+
+header .Account {
+  height: 3rem;
+  width: 7rem;
+  margin-top: 0.8rem;
+  margin-left: -1rem;
+  margin-bottom: 0.8rem;
+  border: 2px;
+  border-radius: 6px;
+}
+header .logo {
+  width: 10rem;
+  height: 3rem;
+  margin: 0.8rem 10rem 1rem -2rem;
+}
+/* STYLING FOR THR WHITE PART */
+.white-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35rem;
+  height: 50rem;
+  background-color: white;
+}
+.payment-div {
+  margin: 1rem -0.4rem 3rem -0.2rem;
+}
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: -6rem -4rem 1rem 1rem;
+}
+.list-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.5rem 12rem 1.5rem -12rem;
+}
+/* style for the number in circle */
+.number-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid aliceblue;
+  margin: 1rem;
+}
+.basic-info-text {
+  display: inline;
+  margin-top: 0.3rem;
+  margin-right: 1.5rem;
+}
+.basic-info-text p {
+  font-weight: bolder;
+  margin-left: -0.4rem;
+  margin-top: 0.8rem;
+}
+.basic-row-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -2rem 7rem 3rem 2rem;
+}
+.Checkout-div h1 {
+  margin: 2rem -5rem 1rem 2rem;
+}
+.FirstName-div {
+  margin-right: 1rem;
+}
+.LastName-div {
+  margin-left: 1rem;
+}
+.Email-div {
+  margin: -2rem 8rem 2rem -4rem;
+}
+.Email-div input {
+  width: 25rem;
+}
+
+.list-div2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 1.5rem 1.5rem 1rem;
+}
+.number-div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid aliceblue;
+  margin: 1rem;
+}
+.payment {
+  font-weight: bolder;
+  margin: 1.2rem 3rem 1rem -0.2rem;
+}
+.Credit-card-form {
+  margin: -1.5rem 2rem 2rem 2rem;
+}
+.Credit-card-input {
+  display: flex;
+  flex-direction: row;
+}
+.card-num {
+  width: 19rem;
+}
+.month-input {
+  width: 8rem;
+}
+.CVC-input {
+  width: 5rem;
+}
+/* STYLEING AND GETTING THE LABEL ABOVE THE INPUT */
+input,
+label {
+  display: block;
+  margin-top: 0.5rem;
+}
+input {
+  height: 2.5rem;
+  width: 15rem;
+  border-radius: 5px;
+  border: 0;
+  border-radius: 2px;
+  background-color: whitesmoke;
+}
+.Buy {
+  height: 2.5rem;
+  width: 32rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background-color: #038e7d;
+  border-radius: 5px;
+}
+.white-div footer {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+#icon {
+  margin-right: 0.5rem;
+  color: rgb(169, 202, 235);
+}
+.first-footer img {
+  margin: 0 auto;
+}
+/* STYLING FOR THE BLUE PART */
+.blue-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1179bf;
+  height: 50rem;
+  width: 17rem;
+  color: white;
+}
+.free {
+  font-size: 20px;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin: -5rem 5rem 2.5rem -2rem;
+}
+.year-div {
+  margin: -3rem 5rem 5rem 1rem;
+}
+.year1 {
+  font-size: 80px;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+.year1 sup {
+  font-size: 24px;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-right: -1rem;
+}
+.year {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: -1.5rem;
+}
+.auto {
+  max-width: 60%;
+  margin-left: -2.5rem;
+  font-style: italic;
+  margin-top: -5rem;
+}
+.blue-list {
+  margin: 2.5rem 3rem 2rem -1rem;
+}
+.blue-list li {
+  list-style: none;
+  margin: 0.3rem;
+}
+.blue-div i {
+  margin-right: 1rem;
+}
+.blue-div a {
+  color: white;
+  margin-left: 1.5rem;
+}
+.clients {
+  margin-left: 1.5rem;
+}
+.FTP {
+  margin: 2rem;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.FTP span {
+  font-weight: bolder;
+}
+.blue-div hr {
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+  color: white;
+  opacity: 0.5;
+}
+.img-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+.FTP .name {
+  font-style: normal;
+}
+.img-div img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+body .last-foot {
+  display: inline;
+  color: #636b6f;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.last-foot a {
+  color: #31708f;
+}
